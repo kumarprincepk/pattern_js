@@ -10,3 +10,11 @@ function sqrPat(n){
 
 let pattern = sqrPat(5);
 console.log(pattern)
+
+
+// output 
+
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
