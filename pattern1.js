@@ -8,12 +8,12 @@ function sqrPat(n){
   }
 }
 
-let pattern = sqrPat(5);
-console.log(pattern)
+sqrPat(5);
 
 
 // output 
 
+// * * * * *
 // * * * * *
 // * * * * *
 // * * * * *
