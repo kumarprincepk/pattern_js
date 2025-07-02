@@ -8,7 +8,7 @@ function trngPat(n){
   }
 }
 
-console.log(trngPat(5))
+trngPat(5)
 
 // output 
 
