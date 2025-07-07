@@ -3,6 +3,7 @@ function trangPat(n) {
     let spaces = " ".repeat(row);
     let stars = "*".repeat(n - row);
     console.log(spaces + stars);
+    
   }
 }
 
