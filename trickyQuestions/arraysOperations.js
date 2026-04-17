@@ -63,14 +63,51 @@
 // console.log("Output flat Array: ", fltArr(arr))
 
 // compare two array |||
+// function compArr (arr1, arr2){
+//     if(arr1.length !== arr2.length) return false;
+//     for(let i = 0; i < arr1.length; i++){
+//         if(arr1[i] !== arr2[i]) return false;
+//     }
+//     return true;
+// }
+// let arr3  = [0,5,0,3,6,9,8,0,1,7,0];
+// let arr4  = [0,5,0,3,6,9,8,5,1,4,0];
+// console.log("compare array output", compArr(arr3, arr4))
 
-function compArr (arr1, arr2){
-    if(arr1.length !== arr2.length) return false;
-    for(let i = 0; i < arr1.length; i++){
-        if(arr1[i] !== arr2[i]) return false;
-    }
-    return true;
-}
-let arr3  = [0,5,0,3,6,9,8,0,1,7,0];
-let arr4  = [0,5,0,3,6,9,8,5,1,4,0];
-console.log("compare array output", compArr(arr3, arr4))
+
+// Largest Element ||
+//  let arr = [7,0,5,0,3,6,0,1,0];
+//   function largestElement (arr){
+//     let larEle = 0;
+//     for(let i = 0; i<arr.length; i++){
+//       if(arr[i] > larEle){
+//         larEle = arr[i]
+//       }
+//     }
+//     return larEle;
+//   }
+//   console.log("largest element",largestElement(arr))
+
+
+// second largest element ||
+//  let arr = [7,0,5,0,3,6,0,1,0];
+//   function secLargest (arr){
+//     let larEle = 0;
+//     let secLarEle  = 0;
+//     for(let i = 0; i<arr.length; i++){
+//       if(arr[i] > larEle){
+//         secLarEle = larEle
+//         larEle = arr[i]
+//       } else if(arr[i]>secLarEle && arr[i] !== larEle){
+//         secLarEle = arr[i]
+//       }
+//     }
+//     return secLarEle;
+//   }
+// || or 
+// function secLargest(arr){
+//     let sortedArr = arr.sort((a,b)=>(b-a));
+//     let uniqueArr = [...new Set(sortedArr)];
+//     return uniqueArr[1]
+// }
+//   console.log("largest element",secLargest(arr))
