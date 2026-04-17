@@ -59,7 +59,7 @@
 //     }
 //     return newFltArr;
 // }
-
+//console.log(arr.flat())
 // console.log("Output flat Array: ", fltArr(arr))
 
 // compare two array |||
@@ -112,5 +112,23 @@
 // }
 //   console.log("largest element",secLargest(arr))
 
+// Find frequency of elements |||
+// let ele =["a", "b", "a", "c", "b", "a"];
+// function occuranceArrayElement(arr){
+//     let result = {};
+//     for(let i = 0; i < arr.length; i++){
+//         let value = arr[i];
+//         result[value] = result[value] ? result[value] + 1 : 1;
+//     }
+//     return result;
+// }
+// or ||
+// function occuranceArrayElement(arr){
+//     return arr.reduce((acc, val)=>{
+//         acc[val] = (acc[val] || 0) + 1;
+//         return acc;
+//     },{})
+// }
+// console.log("output", occuranceArrayElement(ele))
 
 
